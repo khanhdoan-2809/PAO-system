@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
-    private static Map<String, Pao> paoMap = preparePaoMap();
+    private static final Map<String, Pao> paoMap = preparePaoMap();
 
     public static void main(String[] args) {
         var numbers = new ArrayList<String>();
